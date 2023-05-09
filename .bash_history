@@ -219,3 +219,169 @@ git commit -m "Gitignore"
 git push
 cd
 exit
+cd
+ls -l
+cd holbertonschool-monty/
+ls -l
+git add monty.h README.md 
+git commit -m "feat: monty.h file and readme.md :rocket:"
+git push
+clear
+git status
+git restore .
+git status
+clear
+git status
+git restore ../.bash_history
+git status
+clear
+cd
+cd holbertonschool-shell/
+ls -l
+git pull
+git push
+git status
+git add README.md 
+git commit -m "feat: Update :rocket:"
+git push
+git status
+clear
+git status
+cd
+cd -
+ls -l
+cd init_files_variables_and_expansions/
+ls -l
+cd
+git status
+ls -l
+git push
+git add .
+git pull
+git add .
+git commit -m "feat: Update :rocket:"
+git push
+git push --set-upstream origin main
+clear
+git status
+cd holbertonschool-low_level_programming/
+ls -l
+clear
+ls -l
+git status
+git push
+git pull
+clear
+ls -l
+cd
+ls -l
+cd holbertonschool-monty/
+cd
+cd test-C-20-C---Simple-Shell-/
+git pull
+clear
+ls -l
+cd
+ls -l
+cd holbertonschool-shell/
+git pull
+cd
+cd emacs/
+git pull
+cd
+cd holbertonschool-low_level_programming/
+git pull
+cd
+cd holbertonschool-monty/
+git add .
+git commit -m "feat: Update :rocket:"
+git add ../holbertonschool-low_level_programming
+git add ../holbertonschool-printf
+git add ../holbertonschool-shell
+git add ../test-C-20-C---Simple-Shell-
+git status
+git push
+clear
+ls -l
+git add monty.h 
+git add README.md 
+git commit -m "feat: Update :rocket:"
+git push
+cd
+cd -
+cd ..
+ls -l
+cd holbertonschool-zero_day/
+ls -l
+git status
+cd
+git status
+cd holbertonschool-printf/
+git pull
+ls -l
+git status
+git add .
+git status
+git commit -m "feat: Update :rocket:"
+git push
+clear
+git status
+cd .
+cd ..
+git status
+cd holbertonschool-s
+cd holbertonschool-shell/
+ls -l
+git status
+git add .
+git status
+git commit -m "feat: Update :rocket:"
+git push
+git status
+clear
+ls -l
+cd ..
+git status
+cd holbertonschool-shell/
+git status
+cd
+cd holbertonschool-low_level_programming/
+git status
+git add .
+git status
+git commit -m "feat: Update"
+git push
+git status
+cd
+git status
+cd holbertonschool-low_level_programming/
+git status
+clear
+exit
+cd
+git status
+clear
+git status
+ls -l
+clear
+ls -l
+cd holbertonschool-monty/
+ls -l
+git add monty.h README.md 
+git commit -m "feat: Update :rocket:"
+git push
+pwd
+cd
+cd holbertonschool-zero_day/
+ls -l
+git pull
+ls -l
+git status
+cd
+ks .k
+ls -l
+cd test-C-20-C---Simple-Shell-/
+ls -l
+git pull
+git status
+exit
