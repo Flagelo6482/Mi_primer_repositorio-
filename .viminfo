@@ -10,17 +10,26 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<hoy\>
+
 # Command Line History (newest to oldest):
-:wq
-|2,0,1675911643,,"wq"
-:q!
-|2,0,1675812412,,"q!"
 :q
-|2,0,1675812407,,"q"
+|2,0,1682350905,,"q"
+:q!
+|2,0,1680790111,,"q!"
+:wq
+|2,0,1676125547,,"wq"
+:dd
+|2,0,1676125054,,"dd"
+:0
+|2,0,1676124934,,"0"
+:y
+|2,0,1676124890,,"y"
+:yy
+|2,0,1676124884,,"yy"
 :ps
 |2,0,1675812400,,"ps"
-:0
-|2,0,1675812388,,"0"
 :$
 |2,0,1675812378,,"$"
 :k
@@ -29,6 +38,8 @@
 |2,0,1675809114,,"x"
 
 # Search String History (newest to oldest):
+? \<hoy\>
+|2,1,1676125505,,"\\<hoy\\>"
 
 # Expression History (newest to oldest):
 
@@ -37,139 +48,340 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	asdasdasds adas asas das dsdasasdas
+|3,0,0,1,1,0,1676124890,"asdasdasds adas asas das dsdasasdas"
+""1	LINE	0
+	hola como estas hoy dia
+|3,1,1,1,1,0,1676125292,"hola como estas hoy dia"
+"2	LINE	0
+	hola como estas el dia de hoy
+|3,0,2,1,1,0,1676125140,"hola como estas el dia de hoy"
+"3	LINE	0
+	sdasdassd asd asdasd asd
+|3,0,3,1,1,0,1676125094,"sdasdassd asd asdasd asd"
+"4	LINE	0
+	asdassdsddasds adas asas das dsdasasdas
+|3,0,4,1,1,0,1676125092,"asdassdsddasds adas asas das dsdasasdas"
+"5	LINE	0
+	i
+|3,0,5,1,1,0,1676125069,"i"
+"6	LINE	0
+	asdassdsddasds adas asas das dsdasasdas
+|3,0,6,1,1,0,1676125067,"asdassdsddasds adas asas das dsdasasdas"
 "e	CHAR	0
 	€ýa€kb€ýa€ýa.v€kb€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kb€kb€kb€kb€kb€kb€ýa€ýa€ýa€ýa
 |3,0,14,0,1,0,1675810757,"€ýa€kb€ýa€ýa.v€kb€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kb€kb€kb€kb€kb€kb€ýa€ýa€ýa€ýa"
 "w	CHAR	0
 	d€ýasdsdsd€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kd€kd€kd€kd€kd€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€ýa:0
 |3,0,32,0,1,0,1675812362,"d€ýasdsdsd€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kd€kd€kd€kd€kd€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€ýa:0"
-""-	CHAR	0
+"-	CHAR	0
 	h
-|3,1,36,0,1,0,1675812397,"h"
+|3,0,36,0,1,0,1675812397,"h"
 
 # File marks:
-'0  7  17  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,48,7,17,1675911643,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
-'1  6  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,49,6,0,1675910868,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
-'2  6  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,50,6,0,1675910868,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
-'3  1  1234  ~/vi/demo1
-|4,51,1,1234,1675812412,"~/vi/demo1"
-'4  1  16  ~/vi/demo1
-|4,52,1,16,1675810768,"~/vi/demo1"
-'5  1  17  ~/vi/demo1
-|4,53,1,17,1675810761,"~/vi/demo1"
-'6  1  17  ~/vi/demo1
-|4,54,1,17,1675810761,"~/vi/demo1"
-'7  1  20  ~/vi/demo1
-|4,55,1,20,1675810653,"~/vi/demo1"
-'8  1  20  ~/vi/demo1
-|4,56,1,20,1675810653,"~/vi/demo1"
-'9  1  20  ~/vi/demo1
-|4,57,1,20,1675810653,"~/vi/demo1"
+'0  1  0  ~/holbertonschool-simple_shell/.git/MERGE_MSG
+|4,48,1,0,1682350905,"~/holbertonschool-simple_shell/.git/MERGE_MSG"
+'1  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,49,1,0,1680790111,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+'2  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,50,1,0,1680754015,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+'3  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,51,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+'4  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,52,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+'5  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,53,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+'6  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,54,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+'7  1  0  ~/vi/beginning_of_the_line
+|4,55,1,0,1676125818,"~/vi/beginning_of_the_line"
+'8  1  0  ~/vi/beginning_of_the_line
+|4,56,1,0,1676125754,"~/vi/beginning_of_the_line"
+'9  1  2  ~/vi/exiting
+|4,57,1,2,1676125746,"~/vi/exiting"
 
 # Jumplist (newest first):
--'  7  17  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,39,7,17,1675911643,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
--'  1  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,39,1,0,1675911578,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
--'  6  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,39,6,0,1675910868,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
--'  6  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,39,6,0,1675910868,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
--'  1  0  ~/Mi_primer_repositorio-/.git/MERGE_MSG
-|4,39,1,0,1675910820,"~/Mi_primer_repositorio-/.git/MERGE_MSG"
--'  1  1234  ~/vi/demo1
-|4,39,1,1234,1675812412,"~/vi/demo1"
--'  1  1234  ~/vi/demo1
-|4,39,1,1234,1675812412,"~/vi/demo1"
--'  1  1234  ~/vi/demo1
-|4,39,1,1234,1675812412,"~/vi/demo1"
--'  1  1234  ~/vi/demo1
-|4,39,1,1234,1675812412,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675810768,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675810768,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675810768,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675810768,"~/vi/demo1"
--'  1  17  ~/vi/demo1
-|4,39,1,17,1675810761,"~/vi/demo1"
--'  1  17  ~/vi/demo1
-|4,39,1,17,1675810761,"~/vi/demo1"
--'  1  17  ~/vi/demo1
-|4,39,1,17,1675810761,"~/vi/demo1"
--'  1  17  ~/vi/demo1
-|4,39,1,17,1675810761,"~/vi/demo1"
--'  1  20  ~/vi/demo1
-|4,39,1,20,1675810653,"~/vi/demo1"
--'  1  20  ~/vi/demo1
-|4,39,1,20,1675810653,"~/vi/demo1"
--'  1  20  ~/vi/demo1
-|4,39,1,20,1675810653,"~/vi/demo1"
--'  1  20  ~/vi/demo1
-|4,39,1,20,1675810653,"~/vi/demo1"
--'  1  0  ~/vi/demo1
-|4,39,1,0,1675810631,"~/vi/demo1"
--'  1  0  ~/vi/demo1
-|4,39,1,0,1675810631,"~/vi/demo1"
--'  1  0  ~/vi/demo1
-|4,39,1,0,1675810631,"~/vi/demo1"
--'  1  0  ~/vi/demo1
-|4,39,1,0,1675810631,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809172,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809172,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809172,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809172,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809169,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809169,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809169,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809169,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809161,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809161,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809161,"~/vi/demo1"
--'  1  16  ~/vi/demo1
-|4,39,1,16,1675809161,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809141,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809141,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809141,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809141,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809114,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809114,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809114,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809114,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809099,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809099,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809099,"~/vi/demo1"
--'  1  3  ~/vi/demo1
-|4,39,1,3,1675809099,"~/vi/demo1"
+-'  1  0  ~/holbertonschool-simple_shell/.git/MERGE_MSG
+|4,39,1,0,1682350905,"~/holbertonschool-simple_shell/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680790111,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680790111,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680754015,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+|4,39,1,0,1680754015,"~/holbertonschool-low_level_programming/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  54  ~/holbertonschool-printf/.git/MERGE_MSG
+|4,39,1,54,1680568570,"~/holbertonschool-printf/.git/MERGE_MSG"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127817,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/school
+|4,39,1,0,1676127266,"~/holbertonschool-zero_day/git/bash/school"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
+-'  1  0  ~/holbertonschool-zero_day/git/bash/best
+|4,39,1,0,1676127253,"~/holbertonschool-zero_day/git/bash/best"
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-simple_shell/.git/MERGE_MSG
+	*	1682350903	0
+	"	1	0
+	^	1	0
+
+> ~/holbertonschool-low_level_programming/.git/MERGE_MSG
+	*	1680790106	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/holbertonschool-printf/.git/MERGE_MSG
+	*	1680568566	0
+	"	1	54
+	^	1	55
+	.	1	55
+	+	1	55
+
+> ~/holbertonschool-zero_day/git/bash/school
+	*	1676127815	0
+	"	1	0
+
+> ~/holbertonschool-zero_day/git/bash/best
+	*	1676127242	0
+	"	1	0
+
+> ~/vi/beginning_of_the_line
+	*	1676125815	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/vi/exiting
+	*	1676125742	0
+	"	1	2
+	.	1	0
+	+	1	0
+
+> ~/vi/undoing
+	*	1676125546	0
+	"	1	0
+	^	1	1
+	.	1	1
+	+	1	1
+
+> ~/vi/pasting
+	*	1676125517	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	1
+	+	1	0
+
+> ~/vi/cutting
+	*	1676125377	0
+	"	1	1
+	^	1	2
+	.	2	0
+	+	1	2
+	+	1	3
+	+	1	53
+	+	1	30
+	+	1	2
+	+	1	7
+	+	2	0
+
+> ~/vi/inserting
+	*	1676125180	0
+	"	1	0
+	^	1	1
+	.	2	0
+	+	1	0
+	+	1	39
+	+	1	0
+	+	1	30
+	+	2	0
 
 > ~/Mi_primer_repositorio-/.git/MERGE_MSG
 	*	1675911639	0
